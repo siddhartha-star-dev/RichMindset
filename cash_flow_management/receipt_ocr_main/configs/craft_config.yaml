@@ -1,0 +1,18 @@
+#text confidence threshold
+text_threshold: 0.7
+#text low-bound score
+low_text: 0.2 
+#link confidence threshold
+link_threshold: 0.2
+#Use cuda for inference
+cuda: False
+#image size for inference
+canvas_size: 1280
+#image magnification ratio
+mag_ratio: 1.5
+#enable polygon type
+poly: False
+#enable link refiner
+refine: False
+#pretrained refiner model
+refiner_model: ''
