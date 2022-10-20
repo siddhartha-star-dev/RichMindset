@@ -30,7 +30,6 @@ public class HomeFragment extends Fragment {
         mauth=FirebaseAuth.getInstance();
         View root = binding.getRoot();
 
-
         return root;
     }
 
