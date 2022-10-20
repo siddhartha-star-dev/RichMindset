@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CashFlow</string>
+    <string name="title_home">Home</string>
+    <string name="title_savings">Savings</string>
+    <string name="title_Profile">Profile</string>
+</resources>
