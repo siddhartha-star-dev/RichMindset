@@ -29,19 +29,7 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         mauth=FirebaseAuth.getInstance();
         View root = binding.getRoot();
-        TextView logOut=binding.textHome;
-        logOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(getActivity(),Login.class);
-                intent.putExtra("Key",logOut.toString());
-                startActivity(intent);
-                mauth.signOut();
 
-
-
-            }
-        });
 
         return root;
     }
