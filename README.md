@@ -1,5 +1,5 @@
 # cash_flow_management
-This project is the starting point for a new django backend project. It is based on the DRF framework.
+This project is the django backend project. It is based on the DRF framework. It provides Rest api to be integrated with web frontend made by Javascript, HTML, CSS and app made by Java + XML. 
 
 # Project dev details
 
